@@ -56,3 +56,5 @@ INSERT INTO habitaciones (tipo, capacidad, precio) VALUES ('Simple',2,150.00),
     INSERT INTO reservas (cliente_id, habitacion_id, fecha_entrega, fecha_salida) VALUES (1,1,'2022-01-01','2022-01-15'),
     (2,2,'2022-02-01','2022-02-10');
     
+    --CONSULTAS
+    SELECT * FROM habitaciones;
